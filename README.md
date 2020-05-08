@@ -1,4 +1,6 @@
-# 基本类型
+# TypeScript 
+
+## 基本类型
 1. any 任意类型
 2. string 字符串类型
 3. boolean 布尔类型
@@ -12,7 +14,7 @@
 --- | 或类型
 
 
-# 接口
+## 接口
 1. interface 
 - interface Person { aga: number, say: ()=> string}     
 -- var min:Person= {age: 21, say: ()=> "hello"}
@@ -24,7 +26,7 @@
 - interface IParent2 { v2:number } 
 - interface Child extends IParent1, IParent2 { } 
 
-# class 类
+## class 类
 1. static 静态方法
 2. public 公有,任何地方可访问
 3. protected 受保护, 可以被其自身以及其子类和父类访问
@@ -42,4 +44,9 @@
     } 
 
 
-# 命名空间
+## 命名空间
+1. namespace
+
+## 文件声明
+1. declare
+- declare var jQuery: (selector: string) => any;
